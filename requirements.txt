@@ -1,2 +1,3 @@
+matplotlib
 odc-stac
 pystac-client
