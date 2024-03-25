@@ -1,3 +1,7 @@
+
+botocore
+folium
 matplotlib
-odc-stac
+odc-geo[all]
+odc-stac[all]
 pystac-client
