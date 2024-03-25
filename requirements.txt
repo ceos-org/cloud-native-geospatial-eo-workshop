@@ -1,0 +1,7 @@
+
+botocore
+folium
+matplotlib
+odc-geo[all]
+odc-stac[all]
+pystac-client
