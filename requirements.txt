@@ -1,3 +1,4 @@
+bokeh
 botocore
 folium
 jinja2
