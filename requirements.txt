@@ -1,6 +1,6 @@
-
 botocore
 folium
+jinja2
 matplotlib
 odc-geo[all]
 odc-stac[all]
