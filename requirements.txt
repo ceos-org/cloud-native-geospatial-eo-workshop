@@ -1,6 +1,7 @@
 bokeh
 botocore
 folium
+geopandas
 jinja2
 matplotlib
 odc-geo[all]
