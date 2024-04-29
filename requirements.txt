@@ -4,6 +4,7 @@ folium
 geopandas
 jinja2
 matplotlib
+mapclassify
 odc-geo[all]
 odc-stac[all]
 pystac-client
