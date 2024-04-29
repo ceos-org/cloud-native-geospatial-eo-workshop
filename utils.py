@@ -1,5 +1,7 @@
-"""Configuration dictionary"""
-
+# HLS configuration dictionary
+# Note that if NASA uses the Band extension
+# for their STAC documents, then this config
+# will be unnecessary.
 hls_config = {
     "HLSS30.v2.0": {
         "assets": {
