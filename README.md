@@ -10,6 +10,9 @@ please see the
 [Satellite Data Requirements for SDGIndicator 15.3.1](https://ceos.org/sdg/files/supportsheets/SDG_15.3.1_EO_Satellite_Data_Requirements_31Aug2022.pdf)
 document.
 
+The selected application area is a forested region in Capão Bonito, 
+a municipality in the state of São Paulo in Brazil. 
+
 ## Quickstart
 
 ### Start the Codespace
@@ -43,7 +46,7 @@ In the Codespace:
 ``` json
 {
    "earthdata": {
-       "token": "your-token-here"
+       "token": "TOKEN_GOES_HERE"
    }
 }
 ```
@@ -56,11 +59,22 @@ notebook and work through the cells.
 ## Authorship and sponsorship
 
 This notebook was written by Alex Leith and Caitlin Adams, with
-support from the
-[Committee on Earth Observation Satellites](https://ceos.org/).
+financial support from the
+[Committee on Earth Observation Satellites](https://ceos.org/)
+and advice from members of the [GEO Land Degradation Neutrality Flagship](https://geo-ldn.org/).
 
 ## Further resources
 
-### HLS User Guide
+### NASA's Harmonized Landsat Sentinel-2 product
 
-You can access the [HLS user guide here](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf). Note that table 9 includes the QA flags definition.
+* [Product overvivew](https://hls.gsfc.nasa.gov/)
+* [User guide](https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf)
+* STAC catalog URL: [https://cmr.earthdata.nasa.gov/cloudstac/LPCLOUD/](https://cmr.earthdata.nasa.gov/cloudstac/LPCLOUD/)
+
+### SDG indicator 15.3.1
+
+There are multiple valuable resources related to measurment of land degredation through SDG indicator 15.3.1:
+
+* [Good practice guidance. SDG indicator 15.3.1, Proportion of land that is degraded over total land area. Version 2.0.](https://www.unccd.int/resources/manuals-and-guides/good-practice-guidance-sdg-indicator-1531-proportion-land-degraded)
+* [Satellite Data Requirements for SDGIndicator 15.3.1](https://ceos.org/sdg/files/supportsheets/SDG_15.3.1_EO_Satellite_Data_Requirements_31Aug2022.pdf)
+* [TRENDS.EARTH: tracking land change](https://maps.trends.earth/map?tab=layers&zoom=7&center=lat%3D-8.477805461808186%26lng%3D-67.87353515625001&layers=%5B%5D&basemap=satellite)
