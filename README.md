@@ -15,6 +15,11 @@ a municipality in the state of São Paulo in Brazil.
 
 ## Quickstart
 
+### Tutorial PDF
+
+Along with a completed notebook, we provide a [step-by-step PDF document](https://drive.google.com/file/d/1z_DO1xEDNmEwLTfk7HyhBe_z9ZzRGX1p/view?usp=sharing).
+This was used to run the tutorial at SatSummit 2024.
+
 ### Start the Codespace
 
 The easiest way to get started running through this workshop is to
