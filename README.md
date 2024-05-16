@@ -36,6 +36,8 @@ includes the ability to run and edit Jupyter Notebooks.
 
 Sign up for EarthData: [https://urs.earthdata.nasa.gov/](https://urs.earthdata.nasa.gov/) if you don't have an account already.
 
+The notebook uses the [`earthaccess`](https://github.com/nsidc/earthaccess) library for authenticating with NASA's Earthdata system.
+
 `earthaccess.login()` prompts you for your Earthdata username and password. Once authenticated, you will have access to credentials for both HTTP and S3 access to Earthdata collections.
 
 ### Run the demonstration notebook
