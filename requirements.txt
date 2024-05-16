@@ -1,5 +1,6 @@
 bokeh
 botocore
+earthaccess
 folium
 geopandas
 jinja2

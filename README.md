@@ -34,27 +34,9 @@ includes the ability to run and edit Jupyter Notebooks.
 
 ### Sign into NASA's Earthdata portal and create an access token
 
-Sign up for EarthData: [https://urs.earthdata.nasa.gov/](https://urs.earthdata.nasa.gov/)
+Sign up for EarthData: [https://urs.earthdata.nasa.gov/](https://urs.earthdata.nasa.gov/) if you don't have an account already.
 
-1. Log in or create an account on EarthData
-2. Go to the Generate Token tab
-3. Click the green generate token button
-4. Copy the token to your clipboard
-
-### Add the access token to secrets.json
-
-In the Codespace:
-
-1. Rename `secrets.json.sample` to `secrets.json`
-2. Paste your token inside the quotation marks
-
-``` json
-{
-   "earthdata": {
-       "token": "TOKEN_GOES_HERE"
-   }
-}
-```
+`earthaccess.login()` prompts you for your Earthdata username and password. Once authenticated, you will have access to credentials for both HTTP and S3 access to Earthdata collections.
 
 ### Run the demonstration notebook
 
