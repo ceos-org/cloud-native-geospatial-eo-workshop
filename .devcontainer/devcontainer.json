@@ -1,24 +1,40 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.11",
-      "installJupyterlab": true
-    }
-  },
-  "postCreateCommand": "pip3 install --user -r requirements.txt",
+  "name": "Cloud Native Geo for EO",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "hostRequirements": {
     "cpus": 4,
     "memory": "16gb",
     "storage": "32gb"
   },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "username": "vscode",
+      "userUid": "1000",
+      "userGid": "1000",
+      "upgradePackages": "true"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11",
+      "installJupyterlab": true
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest",
+      "ppa": "false"
+    }
+  },
+  "postCreateCommand": "pip3 install --user -r requirements.txt",
   "customizations": {
     "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
       "extensions": [
         "ms-python.python",
         "ms-toolsai.jupyter",
         "charliermarsh.ruff"
       ]
     }
-  }
+  },
+  "remoteUser": "vscode"
 }
